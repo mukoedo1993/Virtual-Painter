@@ -15,11 +15,12 @@ Run the code:
 ```
 cd src
 export DISPLAY=:0; g++ -o tst1 colorPicker.cpp `pkg-config opencv4 --cflags --libs`
+./tst1
 ```
-
-
-Use your webcam to determine your colors' parameters which is exactly your 
-
+Use your webcam to determine your colors' parameters which is exactly your painter's color.
+Adjust your scrollwindow's parameters.
+See:
+![mask](image_mask.png)
 
 Step3:
 Close all windows and end the program run during the Step2.
