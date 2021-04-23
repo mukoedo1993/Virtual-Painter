@@ -31,4 +31,8 @@ Step4:
 Run:
 ```
 export DISPLAY=:0; g++ -o tst1 Project1.cpp `pkg-config opencv4 --cflags --libs`
+./tst1
+
 ```
+See the image:
+![painted_image](painted.png)
