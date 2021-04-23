@@ -1,4 +1,6 @@
 # VIRTUAL PAINTER #
+It is an implementation of a virtual painter based on C++ and Opencv library.
+# STEPS #
 Step0:
 Requirements:
 Ubuntu 20.04
