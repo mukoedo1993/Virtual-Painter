@@ -9,10 +9,10 @@ using namespace std;
 int hmin = 0, smin = 0, vmin = 0;
 int hmax = 179, smax = 255, vmax = 255;
 
-
-vector<vector<int>>myColors {{110,36,45,128,126,181},//a dark blue pencil
+//adjust your painter's hue, saturation and val values one by one.
+vector<vector<int>>myColors {//{15,23,166,255,91,124},//a yellow brush
                              {0,169,139,10,255,255,255},//a pink pencil
-                             //{139,55,135,179,123,188}  //a purple pencil(DOEN'T WORK WELL)
+                             {139,55,135,179,123,188}  //a purple pencil(DOEN'T WORK WELL)
                             };
 
 vector<Scalar>myColorValues{
