@@ -1,5 +1,8 @@
 # VIRTUAL PAINTER #
 It is an implementation of a virtual painter based on C++ and Opencv library.
+Reference:
+https://www.youtube.com/watch?v=2FYm3GOonhk
+
 # STEPS #
 Step0:
 Requirements:
