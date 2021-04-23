@@ -41,3 +41,5 @@ export DISPLAY=:0; g++ -o tst1 Project1.cpp `pkg-config opencv4 --cflags --libs`
 ```
 See the image:
 ![painted_image](painted.png)
+
+Admittedly, my painter and webcam are very poor... :)
