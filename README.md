@@ -4,18 +4,18 @@ Reference:
 https://www.youtube.com/watch?v=2FYm3GOonhk
 
 # STEPS #
-Step0:
+## Step0: ##
 Requirements:
 Ubuntu 20.04
 webcam
 opencv4
 g++
 
-Step1:
+## Step1: ##
 You need to have several objects which have single and clear color. You will need to
 use them as your painters in the next steps.
 
-Step2:
+## Step2: ##
 
 
 Run the code: 
@@ -31,10 +31,10 @@ See:
 And the trackbar:
 ![mask](trackbar.png)
 
-Step3:
+## Step3: ##
 Close all windows and end the program run during the Step2.
 
-Step4:
+## Step4: ##
 Adjust line18 to line 23's code of Project1.cpp, using parameters obtained from Step2.
 ```
 //adjust your painter's hue, saturation and val values one by one.
@@ -51,7 +51,7 @@ vector<Scalar>myColorValues{
 };
 ```
 
-Step5:
+## Step5: ##
 Run:
 ```
 export DISPLAY=:0; g++ -o tst1 Project1.cpp `pkg-config opencv4 --cflags --libs`
