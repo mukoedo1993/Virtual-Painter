@@ -21,6 +21,8 @@ Use your webcam to determine your colors' parameters which is exactly your paint
 Adjust your scrollwindow's parameters.
 See:
 ![mask](Image_mask.png)
+And the trackbar:
+![mask](trackbar.png)
 
 Step3:
 Close all windows and end the program run during the Step2.
